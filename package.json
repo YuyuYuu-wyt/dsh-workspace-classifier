@@ -40,7 +40,8 @@
     "NOTICE",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
-    "RELEASE.md"
+    "RELEASE.md",
+    "install.ps1"
   ],
   "dsh": {
     "manifestVersion": 1,
@@ -60,10 +61,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yuyuyuu-21/dsh-workspace-classifier.git"
+    "url": "https://github.com/YuyuYuu-wyt/dsh-workspace-classifier.git"
   },
-  "homepage": "https://github.com/Yuyuyuu-21/dsh-workspace-classifier#readme",
+  "homepage": "https://github.com/YuyuYuu-wyt/dsh-workspace-classifier#readme",
   "bugs": {
-    "url": "https://github.com/Yuyuyuu-21/dsh-workspace-classifier/issues"
+    "url": "https://github.com/YuyuYuu-wyt/dsh-workspace-classifier/issues"
   }
 }

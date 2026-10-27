@@ -35,13 +35,21 @@ Dark theme: [categories](docs/sidebar-dark.png) · [manager](docs/category-manag
 
 Requires DSH `>= 0.2.0-rc.2` and the `dsh` CLI.
 
-```bash
-git clone https://github.com/Yuyuyuu-21/dsh-workspace-classifier.git
+One-line install (Windows PowerShell):
+
+```powershell
+irm https://raw.githubusercontent.com/YuyuYuu-wyt/dsh-workspace-classifier/main/install.ps1 | iex
+```
+
+Or manually:
+
+```powershell
+git clone https://github.com/YuyuYuu-wyt/dsh-workspace-classifier.git
 cd dsh-workspace-classifier
 dsh plugin --profile desktop add "link:$PWD"
 ```
 
-Refresh DSH after installation. A grouping icon appears on the right of the **Workspace** header row.
+Refresh DSH (`Ctrl+Shift+R`). A grouping icon appears on the right of the **Workspace** header row.
 
 Uninstall:
 

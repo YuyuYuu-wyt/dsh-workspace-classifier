@@ -35,13 +35,21 @@
 
 需要 DSH `>= 0.2.0-rc.2`，并能在终端使用 `dsh` 命令。
 
-```bash
-git clone https://github.com/Yuyuyuu-21/dsh-workspace-classifier.git
+Windows PowerShell 一键安装：
+
+```powershell
+irm https://raw.githubusercontent.com/YuyuYuu-wyt/dsh-workspace-classifier/main/install.ps1 | iex
+```
+
+或者手动：
+
+```powershell
+git clone https://github.com/YuyuYuu-wyt/dsh-workspace-classifier.git
 cd dsh-workspace-classifier
 dsh plugin --profile desktop add "link:$PWD"
 ```
 
-安装后刷新 DSH，侧栏「工作区」标题行右侧会出现分类图标。
+安装后刷新 DSH（`Ctrl+Shift+R`），侧栏「工作区」标题行右侧会出现分类图标。
 
 卸载：
 

@@ -2,10 +2,10 @@
 
 ## 1. Already prepared
 
-- GitHub owner: `Yuyuyuu-21`.
+- GitHub owner: `YuyuYuu-wyt`.
 - Package version: `0.1.0`.
 - Repository metadata in `package.json` points at
-  `https://github.com/Yuyuyuu-21/dsh-workspace-classifier`.
+  `https://github.com/YuyuYuu-wyt/dsh-workspace-classifier`.
 - Initial commit already exists locally.
 - Doc screenshots use fictional data only.
 - No local absolute paths or real workspace names in tracked text files.
@@ -42,7 +42,7 @@ deepseek-harness  dsh  dsh-plugin  sidebar  workspace  categories
 Initial commit is already created locally. Add the remote and push:
 
 ```bash
-git remote add origin https://github.com/Yuyuyuu-21/dsh-workspace-classifier.git
+git remote add origin https://github.com/YuyuYuu-wyt/dsh-workspace-classifier.git
 git push -u origin main
 ```
 
