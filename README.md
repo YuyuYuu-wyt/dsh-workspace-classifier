@@ -23,13 +23,11 @@
 
 ## 预览
 
-| 分类 | 分类管理 |
-| --- | --- |
-| ![分类](docs/sidebar-categories.png) | ![分类管理](docs/category-manager.png) |
-
-![日期分组](docs/date-groups.png)
-
-暗色主题：[分类视图](docs/sidebar-dark.png) · [分类管理](docs/category-manager-dark.png)
+| 视图 | 浅色 | 深色 |
+| --- | --- | --- |
+| 分类 | ![分类（浅色）](docs/sidebar-categories.png) | ![分类（深色）](docs/sidebar-dark.png) |
+| 分类管理 | ![分类管理（浅色）](docs/category-manager.png) | ![分类管理（深色）](docs/category-manager-dark.png) |
+| 日期分组 | ![日期分组（浅色）](docs/date-groups.png) | ![日期分组（深色）](docs/date-groups-dark.png) |
 
 ## 安装
 

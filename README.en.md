@@ -23,13 +23,11 @@ Adds one category layer above the native workspace list in the **DeepSeek Harnes
 
 ## Screenshots
 
-| Categories | Category manager |
-| --- | --- |
-| ![Categories](docs/sidebar-categories.png) | ![Category manager](docs/category-manager.png) |
-
-![Date groups](docs/date-groups.png)
-
-Dark theme: [categories](docs/sidebar-dark.png) · [manager](docs/category-manager-dark.png)
+| View | Light | Dark |
+| --- | --- | --- |
+| Categories | ![Categories (light)](docs/sidebar-categories.png) | ![Categories (dark)](docs/sidebar-dark.png) |
+| Category manager | ![Category manager (light)](docs/category-manager.png) | ![Category manager (dark)](docs/category-manager-dark.png) |
+| Date groups | ![Date groups (light)](docs/date-groups.png) | ![Date groups (dark)](docs/date-groups-dark.png) |
 
 ## Install
 
