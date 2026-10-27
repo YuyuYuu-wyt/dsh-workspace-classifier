@@ -1,0 +1,13 @@
+# dsh-workspace-classifier bundle patch
+#
+# `dsh.bundle.patch` layer: adding this package to `dsh.profile.bundles`
+# makes the profile boot merge this patch, which mounts the loader row for the
+# plugin (host half + `dsh.client` scan).
+#
+# The `disabled` guard backs this row off when another enabled entry already
+# mounts `dsh-workspace-classifier`, so an accidental double mount cannot
+# create two competing loader rows.
+- insert:
+    - id: workspace-classifier
+      name: 'dsh-workspace-classifier'
+      disabled: !!js "[...ctx.loader.entries()].some((e) => e.options.name === 'dsh-workspace-classifier' && e.options.id !== 'workspace-classifier' && !e.disabled)"

@@ -1,0 +1,69 @@
+{
+  "name": "dsh-workspace-classifier",
+  "version": "0.1.0",
+  "description": "Add one category/date grouping layer above the native DeepSeek Harness workspace sidebar, while keeping native session rows intact.",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "wyt",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "workspace",
+    "sidebar",
+    "categories",
+    "date",
+    "分类",
+    "工作区"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "NOTICE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "RELEASE.md"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  },
+  "scripts": {
+    "check": "node --check lib/index.js && node --check lib/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuyuyuu-21/dsh-workspace-classifier.git"
+  },
+  "homepage": "https://github.com/Yuyuyuu-21/dsh-workspace-classifier#readme",
+  "bugs": {
+    "url": "https://github.com/Yuyuyuu-21/dsh-workspace-classifier/issues"
+  }
+}

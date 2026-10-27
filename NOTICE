@@ -1,0 +1,13 @@
+dsh-workspace-classifier v0.1.0
+========================
+
+MIT License, Copyright (c) 2026 wyt.
+
+The current version is an independent implementation: it leaves the shipped
+`@deepseek-ai/dsh-client-ui-workspace` browser in place and adds a grouping
+layer over the native workspace list. It does not replace the
+`sidebar.workspaces` slot.
+
+An earlier prototype in this project was derived from `dsh-workspace-categories`
+(MIT, Copyright (c) 2026 knight) and was replaced; no source from it remains in
+the current `lib/client.js`. The MIT text is preserved in LICENSE.
