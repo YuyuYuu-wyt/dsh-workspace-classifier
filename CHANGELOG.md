@@ -4,6 +4,7 @@
 
 - Add selectable section-band and group-card separators for workspace groups.
 - Count running subagent sessions in workspace/group running indicators.
+- Fold inactive workspaces (no sessions, or no updates for over a week) inside their original category/date group.
 
 All notable changes to this project are documented here.
 

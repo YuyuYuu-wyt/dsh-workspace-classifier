@@ -18,6 +18,7 @@ Adds one category layer above the native workspace list in the **DeepSeek Harnes
 - **Date groups**: automatic year / month / day grouping; collapsed by default.
 - **Manual ordering**: drag group headers, or use Move up / Move down.
 - **Collapse state**: categories remember it; date groups start collapsed on every re-entry.
+- **Inactive workspaces**: workspaces with no sessions or no updates for over a week are folded inside their original category/date group as “N inactive”; click to reveal them in place, without creating another category.
 - **Special groups**: Uncategorized and the native ungrouped section are included.
 - **Indicators**: pending reminders, running sessions (including subagents) and scheduled tasks.
 - **Header toggle**: turn the layer off and restore the native list instantly.
