@@ -1,6 +1,6 @@
 {
   "name": "dsh-workspace-classifier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add one category/date grouping layer above the native DeepSeek Harness workspace sidebar, while keeping native session rows intact.",
   "type": "module",
   "main": "lib/index.js",

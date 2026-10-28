@@ -4,7 +4,7 @@ English | [简体中文](README.md)
 
 Adds one category layer above the native workspace list in the **DeepSeek Harness** sidebar, while keeping native session rows and interactions untouched. A small, simple feature that makes managing your Harness projects a little easier.
 
-**0.1.0** · MIT · DSH `>= 0.2.0-rc.2`
+**0.1.1** · MIT · DSH `>= 0.2.0-rc.2`
 
 > Screenshots use fictional workspace names and paths.
 

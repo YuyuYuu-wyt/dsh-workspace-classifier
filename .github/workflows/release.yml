@@ -1,0 +1,28 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="${GITHUB_REF_NAME}"
+          notes="release-notes/${tag}.md"
+          if [ -f "$notes" ]; then
+            gh release create "$tag" --title "$tag" --notes-file "$notes" --verify-tag
+          else
+            echo "No release notes file at $notes; generating notes."
+            gh release create "$tag" --title "$tag" --generate-notes --verify-tag
+          fi

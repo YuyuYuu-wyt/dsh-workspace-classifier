@@ -3,7 +3,7 @@
 ## 1. Already prepared
 
 - GitHub owner: `YuyuYuu-wyt`.
-- Package version: `0.1.0`.
+- Package version: `0.1.1`.
 - Repository metadata in `package.json` points at
   `https://github.com/YuyuYuu-wyt/dsh-workspace-classifier`.
 - Initial commit already exists locally.
@@ -12,7 +12,7 @@
 
 ## 2. Verify the tree
 
-- [x] `package.json` version is `0.1.0`.
+- [x] `package.json` version is `0.1.1`.
 - [x] `npm run check` passes.
 - [x] No local absolute paths (`C:\Users\...`, `D:\...`) in text files.
 - [x] No real workspace names, session titles or screenshots in `docs/`.
@@ -60,15 +60,14 @@ git commit --amend --reset-author --no-edit
 ## 5. Create the release
 
 ```bash
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.1.1
+git push origin v0.1.1
 ```
 
-On GitHub:
-
-1. Draft a release from tag `v0.1.0`.
-2. Use the `CHANGELOG.md` 0.1.0 section as release notes.
-3. Attach `docs/` screenshots if desired.
+Pushing a `v*` tag triggers `.github/workflows/release.yml`, which creates
+the GitHub Release with notes from `release-notes/<tag>.md` (or generated
+notes when that file is absent). Attach extra screenshots manually afterwards
+if desired.
 
 ## 6. Optional npm publishing
 

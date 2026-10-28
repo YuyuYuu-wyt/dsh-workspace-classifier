@@ -1,12 +1,16 @@
 # Changelog
 
-## Unreleased
-
-- Add selectable section-band and group-card separators for workspace groups.
-- Count running subagent sessions in workspace/group running indicators.
-- Fold inactive workspaces (no sessions, or no updates for over a week) inside their original category/date group.
-
 All notable changes to this project are documented here.
+
+## 0.1.1 — 2026-10-28
+
+本次更新集中在侧栏分组的识别方式、自动收纳和提示准确性
+
+### 新增
+
+- **两种分组分隔风格**：分区带 / 分组卡片，可在「分类管理 → 分组分隔」切换，选择会保存。
+- **不活跃工作区就地折叠**：没有会话，或最近一次更新超过一周的工作区，会在原分类/日期分组内显示为「N 不活跃」；点击就地展开。
+- **子智能体运行提示**：子智能体运行时也会点燃所属工作区/分组的运行提示点，不再只有主智能体工作才闪烁。
 
 ## 0.1.0 — 2026-10-28
 
