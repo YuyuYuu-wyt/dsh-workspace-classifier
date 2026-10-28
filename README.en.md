@@ -49,7 +49,7 @@ cd dsh-workspace-classifier
 dsh plugin --profile desktop add "link:$PWD"
 ```
 
-Refresh DSH (`Ctrl+Shift+R`). A grouping icon appears on the right of the **Workspace** header row.
+Restart Harness after installation. A grouping icon appears on the right of the **Workspace** header row.
 
 Uninstall:
 

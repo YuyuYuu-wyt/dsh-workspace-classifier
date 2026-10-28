@@ -36,5 +36,5 @@ Write-Host "Linking plugin into DSH profile '$Profile' ..."
 & $dsh plugin --profile $Profile add "link:$InstallDir"
 
 Write-Host ""
-Write-Host "Done. Refresh DSH (Ctrl+Shift+R) and look for the grouping icon on the right side of the Workspace header." -ForegroundColor Green
-Write-Host "To update later: run this installer again or 'git -C `"$InstallDir`" pull' and refresh DSH."
+Write-Host "Done. Restart DeepSeek Harness and look for the grouping icon on the right side of the Workspace header." -ForegroundColor Green
+Write-Host "To update later: run this installer again or 'git -C `"$InstallDir`" pull', then restart DeepSeek Harness."
