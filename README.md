@@ -35,7 +35,13 @@
 
 需要 DSH `>= 0.2.0-rc.2`，并能在终端使用 `dsh` 命令。
 
-Windows PowerShell 一键安装：
+从 npm 安装：
+
+```powershell
+dsh plugin --profile desktop add dsh-workspace-classifier
+```
+
+Windows PowerShell 一键安装（GitHub）：
 
 ```powershell
 irm https://raw.githubusercontent.com/YuyuYuu-wyt/dsh-workspace-classifier/main/install.ps1 | iex

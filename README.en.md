@@ -35,7 +35,13 @@ Adds one category layer above the native workspace list in the **DeepSeek Harnes
 
 Requires DSH `>= 0.2.0-rc.2` and the `dsh` CLI.
 
-One-line install (Windows PowerShell):
+Install from npm:
+
+```powershell
+dsh plugin --profile desktop add dsh-workspace-classifier
+```
+
+One-line install from GitHub (Windows PowerShell):
 
 ```powershell
 irm https://raw.githubusercontent.com/YuyuYuu-wyt/dsh-workspace-classifier/main/install.ps1 | iex
