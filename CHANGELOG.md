@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Add selectable section-band and group-card separators for workspace groups.
+- Count running subagent sessions in workspace/group running indicators.
+
 All notable changes to this project are documented here.
 
 ## 0.1.0 — 2026-10-28

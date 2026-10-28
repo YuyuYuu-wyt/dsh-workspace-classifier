@@ -13,6 +13,7 @@ Adds one category layer above the native workspace list in the **DeepSeek Harnes
 ## Features
 
 - **Two modes**: Categories / Dates.
+- **Two separator styles**: section band / group cards, selectable in the category manager.
 - **Custom categories**: create, rename, delete, assign workspaces.
 - **Date groups**: automatic year / month / day grouping; collapsed by default.
 - **Manual ordering**: drag group headers, or use Move up / Move down.
