@@ -18,7 +18,7 @@ Adds one category layer above the native workspace list in the **DeepSeek Harnes
 - **Manual ordering**: drag group headers, or use Move up / Move down.
 - **Collapse state**: categories remember it; date groups start collapsed on every re-entry.
 - **Special groups**: Uncategorized and the native ungrouped section are included.
-- **Indicators**: pending reminders, running sessions and scheduled tasks.
+- **Indicators**: pending reminders, running sessions (including subagents) and scheduled tasks.
 - **Header toggle**: turn the layer off and restore the native list instantly.
 
 ## Screenshots
